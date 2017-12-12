@@ -22,5 +22,7 @@ def translate(w):
 
 if __name__=="__main__":
     word = raw_input("Enter a word:")
-    print(translate(word))
+    output = translate(word)
+    for item in output:
+        print item
 
